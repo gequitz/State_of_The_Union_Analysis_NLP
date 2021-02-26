@@ -3,3 +3,4 @@ Metis Project 4: Unsupervised Learning and Natural Language Processing (NLP)
 
 # Intro
 Modeling State of the Union speeches (1790-2018) 
+Does American politics have 40 year cycles?

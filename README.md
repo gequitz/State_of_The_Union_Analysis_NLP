@@ -50,4 +50,4 @@ https://www.kaggle.com/rtatman/state-of-the-union-corpus-1989-2017 (Kaggle noteb
 - [Jupyter](https://jupyter.org/)
 
 ## Blog link
-TBD
+https://equitzcode.wordpress.com/2021/03/26/metis-project-4-blog-state-of-the-union-nlp-analysis/

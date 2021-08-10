@@ -6,14 +6,14 @@ ____________________________________________________________________________
 
 ## Problem Statement
 - The State of the Union (SOTU) is an annual address by the President of the United States to congress. Every year, the President discusses the previous year and lays out his agenda for the coming year.
-- My goal is to see how Topics in the State of the Union addresses have changed over more than 200 years of American history using Natural Language Processing
+- My goal is to see how Topics in the State of the Union addresses have changed over more than 200 years of American history using Natural Language Processing.
 - Find historical insights with Topic Modeling and Unsupervised Learning.
 - Additionally, I want to see what speeches are most similar to one another based on the Topics gained from Unsupervised Learning
 - State of the Union speeches from 1790-2018 were chosen to be analyzed.
 
 ## Data Sources
 https://www.kaggle.com/rtatman/state-of-the-union-corpus-1989-2017 (Kaggle notebook containing 228 .txt files of State of the Union speeches from 1790 to 2018)
-- I originally tried using State of the Union speeches contained within Natural Language Toolkit (NLTK), but it only includes less than half of all SOTU speeches, and was therefore not viable for me
+- I originally tried using State of the Union speeches contained within Natural Language Toolkit (NLTK), but it only includes less than half of all SOTU speeches, and was therefore not viable for me.
 
 ## Methodology
 - Get .txt files of all SOTU speeches, clean them, sort by year (not alphabetically), and put in a dataframe.
@@ -21,9 +21,9 @@ https://www.kaggle.com/rtatman/state-of-the-union-corpus-1989-2017 (Kaggle noteb
 - Compare how similar speeches are to one another (df_similarity), finding which president's speeches are most alike.
 - Topic Modeling using NMF: Plot top 15 words for each of 8 components (Unsupervised Learning).
 - Plots of Components over Time (Nicer Visualizations made with Tableau are in the Presentation Slides).
-- Clustering the components using KMeans (this and next step use pickle file of 'main')
-- Make Scatter Plot and Histogram of Speech Clusters over Year
-- Prepare slides and give 5 minute presentation in Zoom meeting
+- Clustering the components using KMeans (this and next step use pickle file of 'main').
+- Make Scatter Plot and Histogram of Speech Clusters over Year.
+- Prepare slides and give 5 minute presentation in Zoom meeting.
 
 ## Files
 - 'state_of_union_main.ipynb' contains all SOTU files (which are put in a dataframe), data cleaning, Speech similarity comparisons, all files related to Topic Modeling, and a Word Cloud in Jupyter Notebook
